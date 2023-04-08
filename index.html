@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="main" action="">
+            <div class="data__collection">
+                <div class="registration__form">
+                    <h2>Registration form</h2>
+                    <div class="reg__form__line">
+                        <img src="img/username.png" alt="">
+                        <label>
+                            <input type="text" name="username" placeholder="Username">
+                        </label>
+                    </div>
+                    <div class="reg__form__line">
+                        <img src="img/email.png" alt="">
+                        <label>
+                            <input type="email" name="email" placeholder="Email address">
+                        </label>
+                    </div>
+                    <div class="reg__form__line">
+                        <img src="img/pswd.png" alt="">
+                        <div class="wrap">
+                            <label>
+                                <input type="password" name="password" placeholder="Password">
+                            </label>
+                            <label>
+                                <input type="password" name="confirmPassword" placeholder="Confirm password">
+                            </label>
+                        </div> 
+                    </div>
+                </div>
+                <div class="registration__form">
+                    <h2>Personal details</h2>
+                    <div class="reg__form__line wrap">
+                        <label>
+                            <input type="text" name="firstName" placeholder="First name">
+                        </label>
+                        <label>
+                            <input type="text" name="lastName" placeholder="Last name">
+                        </label>
+                    </div>
+                    <div class="reg__form__line wrap">
+                        <select name="gender" id="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                        <label>
+                            <input type="date" name="date">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="checkboxes">
+                <label>
+                    I want to receive news and special offers
+                    <input type="checkbox" name="sub">
+                </label>
+                <label>
+                    I agree with the Terms and Conditions
+                    <input type="checkbox" name="agree">
+                </label>
+            </div>
+            <div class="submit">
+                <label>
+                    <input class="submit__bottom" type="submit" name="submit" value="SUBMIT">
+                </label>
+            </div>
+    </form>
+</body>
+</html>
